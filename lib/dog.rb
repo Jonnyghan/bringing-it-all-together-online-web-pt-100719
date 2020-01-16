@@ -4,9 +4,7 @@ class Dog
   
   
   def initialize(attributes)
-    attributes[:name]= @name
-    attributes[:breed]= @breed
-    @id = id
+    
     binding.pry
   end
   
