@@ -9,7 +9,9 @@ class Dog
     #binding.pry
   end
   
-  
+  def self.create_table
+    DB[:conn].execute
+  end
   
   
 end
