@@ -45,7 +45,7 @@ class Dog
   end
   
   def self.new_from_db(row)
-    binding.pry
+   # binding.pry
     hash = {
       :id = row[0],
       :name = row[1],
