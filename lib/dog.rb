@@ -7,6 +7,7 @@ class Dog
     attributes[:name]= @name
     attributes[:breed]= @breed
     @id = id
+    binding.pry
   end
   
   
