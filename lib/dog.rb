@@ -43,6 +43,8 @@ class Dog
     dog = self.new(hash)
     dog.save
   end
+  
+  def
     
   
   
