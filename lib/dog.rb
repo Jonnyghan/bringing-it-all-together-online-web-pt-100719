@@ -40,7 +40,9 @@ class Dog
   end
   
   def self.create(hash)
-    binding.pry
+    dog.self.new(hash)
+    dog.save
+  end
     
   end
   
